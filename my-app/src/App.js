@@ -13,11 +13,12 @@ function App() {
       <div className="App">
       </div>
       <Routes>
+
         <Route
-          path="/Start"
+          path="/"
           element={<Start />}
         />
-         <Route
+        <Route
           path="/ChoiceCard"
           element={<Choices />}
         />
@@ -25,7 +26,7 @@ function App() {
           path="/BonesStart"
           element={<BonesPage />}
         />
-         <Route
+        <Route
           path="/MusclesStart"
           element={<MusclePage />}
         />
