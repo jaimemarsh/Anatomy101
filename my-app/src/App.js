@@ -15,7 +15,7 @@ function App() {
       <Routes>
 
         <Route
-          path="/"
+          path="/Anatomy101"
           element={<Start />}
         />
         <Route
